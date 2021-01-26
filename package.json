@@ -1,0 +1,31 @@
+{
+  "name": "ngendtoendautomation",
+  "version": "1.0.0",
+  "description": "Framework for protractor",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor JSFiles/configuration.js",
+    "pretest": "tsc",
+    "logintest": "protractor JSFiles/loginConfig.js",
+    "prelogintest":"tsc",
+    "protractor": "./node_modules/protractor/built/cli.js",
+    "cutest": "protractor JSFiles/config.js",
+    "webdriver-update": "./node_modules/.bin/webdriver-manager update"
+  },
+  "author": "kuldeep",
+  "license": "ISC",
+  "dependencies": {
+    "@types/cucumber": "^4.0.0",
+    "@types/jasmine": "~3.6.2",
+    "@types/jasminewd2": "~2.0.8",
+    "@types/node": "~14.14.21",
+    "chercher-tech-jasmine-reporter": "^1.0.5",
+    "cucumber": "^5.1.0",
+    "jasmine": "~3.6.3",
+    "protractor": "^7.0.0",
+    "protractor-cucumber-framework": "~6.2.1",
+    "protractor-jasmine2-html-reporter": "0.0.7",
+    "ts-node": "~9.1.1",
+    "typescript": "~4.1.3"
+  }
+}
